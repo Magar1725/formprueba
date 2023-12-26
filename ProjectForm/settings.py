@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-3s(902-2^%21)86e9404mnbw)iz=5n!%$t&dcc(=p8lai+e#b%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['formpruebamg.azurewebsites.net','http://127.0.0.1:8000/']
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'AppForm'
 ]
 
 MIDDLEWARE = [
